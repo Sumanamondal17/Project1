@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+</head>
+
+<body>
+    <header>
+        <section class="header">
+            <div class="flex">
+                <a href="#home" class="logo">khana pina</a>
+                <a href="#availability" class="btn">book now</a>
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </div>
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#availability">availability</a>
+                <a href="#about">about</a>
+                <a href="#services">service</a>
+                <a href="#reservation">booking</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </section>
+    </header>
+    <!--header-->
+    <section id="home" class="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="box swiper-slide">
+                    <img src="https://imgmedia.lbb.in/media/2023/01/63d37aa371710d3f45ec1fa8_1674803875414.jpg" alt="">
+                    <div class="flex">
+                        <h1>khana pina is here</h1>
+                        <a href="#availability" class="btn">connect us</a>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="https://static.toiimg.com/thumb/msid-101282760,width-1280,resizemode-4/101282760.jpg"
+                        alt="">
+                    <div class="flex">
+                        <h1>delicious food and drinks</h1>
+                        <a href="#reservation" class="btn">connect us</a>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2021/11/19153558/Interior-Shot-3.jpg"
+                        alt="">
+                    <div class="flex">
+                        <h1>grab your choice</h1>
+                        <a href="#contact" class="btn">connect us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!--home-->
+    <section class="availability" id="availability">
+        <form action="" method="post">
+            <div class="flex">
+                <div class="box">
+                    <p>date<span>*</span></p>
+                    <input type="date" name="check in" class="input" required>
+                </div>
+
+                <div class="box">
+                    <p>purposes<span>*</span></p>
+                    <select name="adults" class="input" required>
+                        <option value="1">casual</option>
+                        <option value="2">birthday</option>
+                        <option value="3">anniversay</option>
+                        <option value="4">any other</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>table type<span>*</span></p>
+                    <select name="child" class="input" required>
+                        <option value="1">2 seat</option>
+                        <option value="2">4 seat</option>
+                        <option value="3">6 seat</option>
+
+                    </select>
+                </div>
+                <div class="box">
+                    <p>required tables<span>*</span></p>
+                    <select name="room" class="input" required>
+                        <option value="1">1 table</option>
+                        <option value="2">2 tables</option>
+                        <option value="3">3 tables</option>
+                        <option value="4">4 tables</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>food<span>*</span></p>
+                    <select name="room" class="input" required>
+                        <option value="1">lunch</option>
+                        <option value="2">dinner</option>
+
+                    </select>
+                </div>
+            </div>
+            <input type="submit" value="check availability" class="btn" name="check">
+        </form>
+    </section>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="image">
+                <img src="https://as1.ftcdn.net/v2/jpg/05/87/24/94/1000_F_587249409_nFLxILMTEvoCg9D4kFII8UBiZtoB0iZE.jpg"
+                    alt="">
+            </div>
+            <div class="content">
+                <h3>welcome</h3>
+                <p>Bengali cuisine, renowned for its rich flavors and diverse range of dishes, often incorporates a
+                    harmonious blend of sweet and savory elements. Staples like fish, rice, and mustard oil play a
+                    central role, while iconic dishes like "Machher
+                    Jhol" (fish curry) and "Rosogolla" (sweetened cottage cheese balls) showcase the region's culinary
+                    excellence.
+                </p>
+                <a href="#reservation" class="btn">check availability</a>
+            </div>
+        </div>
+        <div class="row revers">
+            <div class="image">
+                <img src="https://static.wixstatic.com/media/91e241_475faa4fa56341f3878699dde5ab4904~mv2.jpg/v1/fill/w_640,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/91e241_475faa4fa56341f3878699dde5ab4904~mv2.jpg"
+                    alt="">
+            </div>
+            <div class="content">
+                <h3>meet</h3>
+                <p>Biryani, a beloved South Asian dish, is a fragrant and flavorful one-pot rice delicacy layered with
+                    aromatic spices, succulent meat (such as chicken or mutton), and long-grain basmati rice. Its
+                    tantalizing taste and cultural significance
+                    make it a cherished culinary masterpiece enjoyed across diverse regions and celebrations.
+                </p>
+                <a href="#contact" class="btn">check availability</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image">
+                <img src="https://ik.imagekit.io/awwybhhmo/satellite_images/chinese/gray/about_us/2.jpg?tr=w-3840"
+                    alt="">
+            </div>
+            <div class="content">
+                <h3>enjoy</h3>
+                <p>Chinese cuisine, celebrated worldwide for its diverse flavors and textures, encompasses a rich
+                    tapestry of dishes ranging from savory stir-fries to delicate dumplings. Characterized by the artful
+                    use of ingredients, aromatic spices, and
+                    culinary finesse, Chinese food is a global culinary delight that continues to captivate taste buds.
+                </p>
+                <a href="#availability" class="btn">check availability</a>
+            </div>
+        </div>
+    </section>
+    <!--about-->
+    <section class="services" id="services">
+        <div class="box-container">
+            <div class="box">
+                <img src="https://assets.gqindia.com/photos/64df605c5bc04358130bedb8/16:9/w_2560%2Cc_limit/004%2520(7).jpg"
+                    alt="">
+                <h3>bengali thali</h3>
+                <p>Bengali food, known for its exquisite blend of delicate spices and emphasis on fresh, locally sourced
+                    ingredients, offers a symphony of flavors that tantalize the palate.</p>
+            </div>
+            <div class="box">
+                <img src="https://www.recipetineats.com/wp-content/uploads/2023/06/Chili-crisp-noodles_2.jpg?w=747&h=747&crop=1"
+                    alt="">
+                <h3>chinese food</h3>
+                <p>Chinese cuisine, with its harmonious balance of bold flavors, diverse textures, and intricate
+                    culinary techniques, creates an unparalleled gustatory experience that transcends cultural borders
+                </p>
+            </div>
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSswoXwP9GlqNV5smM87IEbydhx1CuyavsJaw&usqp=CAU"
+                    alt="">
+                <h3>starter item</h3>
+                <p>Starters, entice the taste buds with a tantalizing prelude of flavors, setting the stage for a
+                    delightful culinary journey.
+                </p>
+            </div>
+            <div class="box">
+                <img src="https://www.allrecipes.com/thmb/pTGS0SZsSQK85sV_RQE_K6ZfoN4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/26460-quick-and-easy-chicken-noodle-soup-allrecipes-1x1-1-b88125437574471db3e114c40bc6928e.jpg"
+                    alt="">
+                <h3>soup</h3>
+                <p>Soup, a comforting and versatile culinary creation, warms the soul with its nourishing broth and a
+                    medley of ingredients, offering a soothing and flavorful dining experience.</p>
+            </div>
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQja3hCF1_eiVYwJEw8SRqJdddD7eJxRwiFFFYkWEbkOn6YWdBxET9BMMZ1E1mxO_HEEsY&usqp=CAU"
+                    alt="">
+                <h3>drinks</h3>
+                <p>Soft drinks, effervescent elixirs of refreshment, bubble with sweetness and fizz, providing a cool
+                    and uplifting sip for moments of quenching thirst</p>
+            </div>
+            <div class="box">
+                <img src="https://www.noracooks.com/wp-content/uploads/2023/04/veggie-burgers-1-2.jpg" alt="">
+                <h3>others</h3>
+                <p>A pizza burger, a delightful fusion of two beloved classics, combines the savory essence of a burger
+                    with the cheesy indulgence of a pizza, creating a flavorful and satisfying gastronomic delight</p>
+            </div>
+
+        </div>
+    </section>
+    <!--surprises-->
+    <section class="reservation" id="reservation">
+        <form action="" method="post">
+            <h3>Smile with us</h3>
+            <div class="flex">
+                <div class="box">
+                    <p>date<span> *</span></p>
+                    <input type="date" name="check_in" class="input" required>
+                </div>
+
+                <div class="box">
+                    <p>purposes<span> *</span></p>
+                    <select name="adults" id="" class="input" required>
+                        <option value="1">casual</option>
+                        <option value="2">birthday</option>
+                        <option value="3">anniversary</option>
+                        <option value="4">any other</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>table type<span> *</span></p>
+                    <select name="child" id="" class="input" required>
+                        <option value="1">2 seat</option>
+                        <option value="2">4 seat</option>
+                        <option value="3">6 seat</option>
+
+                    </select>
+                </div>
+                <div class="box">
+                    <p>required tables<span> *</span></p>
+                    <select name="rooms" id="" class="input" required>
+                        <option value="1">1 table</option>
+                        <option value="2">2 tables</option>
+                        <option value="3">3 tables</option>
+                        <option value="4">4 tables</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>food<span>*</span></p>
+                    <select name="room" class="input" required>
+                        <option value="1">lunch</option>
+                        <option value="2">dinner</option>
+                    </select>
+                </div>
+            </div>
+            <input type="submit" value="choose for booking" name="check" class="btn">
+        </form>
+    </section>
+    <!--reservation-->
+
+
+    <section class="gallery">
+        <div class="swiper gallery-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://ik.imagekit.io/awwybhhmo/satellite_images/chinese/beyondmenu/about_us/16.jpg?tr=w-3840"
+                        alt="">
+                    <p> -- crispy chicken --</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg.transform/576x300/image.jpg"
+                        alt="">
+                    <p>--pizza--</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://www.thespruceeats.com/thmb/GqFnT-HurnFcC3DWQKK6fTlTcZQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/murg-malai-kabab-1957372-Hero_01-bb66c49fd80e4b95b26a6fdd68bd7a7d.jpg"
+                        alt="">
+                    <p>--kabab--</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://i.ytimg.com/vi/ZtFA86rZ-5U/maxresdefault.jpg" alt="">
+                    <p>--tandori roti with chicken kadai--</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://assets-global.website-files.com/60d34b8627f6e735cf28df18/64907d0e2e5feec6e2052166_Fried%20Rice%20Hero%2016.9.jpg"
+                        alt="">
+                    <p>--fried rice--</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://i0.wp.com/pikturenama.com/wp-content/uploads/2020/10/Low-res-Sosrshe-Ilish-8.jpg?fit=1200%2C800&ssl=1"
+                        alt="">
+                    <p>--ilish sorse--</p>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--gallery-->
+    <section class="contact" id="contact">
+        <div class="row">
+            <form action="" method="post">
+                <h3>required information</h3>
+                <input type="text" name="name" class="box" placeholder="enter your name">
+                <input type="email" name="email" class="box" placeholder="enter your email">
+                <input type="number" name="number" class="box" placeholder="enter your number">
+                <textarea name="msg" id="" class="box" cols="30" rows="10" placeholder="send your message"></textarea>
+                <input type="submit" value="Book now" class="btn">
+            </form>
+            <div class="faq">
+                <h3 class="title">khana pina details</h3>
+                <div class="box active">
+                    <h3>booking method</h3>
+                    <p>Booking a methodical and convenient process, simplifying access to various services and
+                        experiences through seamless online platforms or user-friendly interfaces.</p>
+                </div>
+                <div class="box">
+                    <h3>payment method</h3>
+                    <p>Payment methods, evolving with technology, offer secure and efficient transactions, transforming
+                        the way we settle financial obligations in our interconnected digital era.</p>
+                </div>
+                <div class="box">
+                    <h3>cancellation process</h3>
+                    <p>Cancellation methods, often streamlined through user-friendly interfaces, provide a hassle-free
+                        way to retract reservations or services, ensuring flexibility in changing plans.</p>
+                </div>
+                <div class="box">
+                    <h3>cashback system</h3>
+                    <p>Cashback methods, a financial incentive in digital transactions, reward users with a percentage
+                        of their purchase amount, adding an enticing element of savings to the modern shopping
+                        experience.
+                    </p>
+                </div>
+                <div class="box">
+                    <h3>address details</h3>
+                    <p>The address method, crucial for seamless communication and logistics, serves as a precise
+                        locator, facilitating the smooth exchange of goods and information in our interconnected world.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!--contact-->
+    <section class="gallery" id="gallery">
+        <div class="swiper gallery-slider">
+            <div class="swiper-wrapper">
+                <img src="https://assets.vogue.in/photos/6304c8c49336f26bfe6577fe/master/w_1600%2Cc_limit/Bombay%2520Brasserie.jpg"
+                    class="swiper-slide" alt="">
+                <img src="https://www.southernliving.com/thmb/XgZwnFHAhZhSlZ_uA_tMGdB4iD8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MamaRicottas11-99fbee5bd7504985822f672fff48de9d.jpg"
+                    class="swiper-slide" alt="">
+                <img src="https://img.etimg.com/thumb/width-640,height-480,imgsize-151796,resizemode-75,msid-99462440/industry/services/hotels-/-restaurants/restaurant-bills-what-is-the-game-of-the-name/do-the-restaurants-benefit-from-it.jpg"
+                    class="swiper-slide" alt="">
+                <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2015/09/Anaya-Kutir-Twilight-View-Anaya-Kutir-Part-of-the-Raichak-on-Ganges-complex-is-only-51km-from-Kolkata.-Copy.jpg"
+                    class="swiper-slide" alt="">
+                <img src="https://curlytales.com/wp-content/uploads/2022/07/Untitled-design-2022-07-25T111309.161.jpg"
+                    alt="">
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--gallery-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <a href="tel:3457891230"><i class="fas fa-phone"></i> +345-789-1230</a>
+                <a href="tel:5557778888"><i class="fas fa-phone"></i> +555-777-8888</a>
+                <a href="mailto:khanapinakhalo@gmail.com"><i class="fas fa-envelope"></i> khanapinakhalo@gmail.com</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> kolkata, india - 400104</a>
+            </div>
+
+            <div class="box">
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+
+                <a href="#reservation">booking</a>
+                <a href="#Contact">Contact</a>
+            </div>
+            <div class="box">
+                <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+            </div>
+        </div>
+        <div class="credit">&copy; copyright @ 2023 by Sumana Mondal | all rights reserved. </div>
+    </section>
+    <!--footer-->
+    <script src=" https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js "></script>
+    <script src="scrpt.js"></script>
+</body>
+
+</html>
